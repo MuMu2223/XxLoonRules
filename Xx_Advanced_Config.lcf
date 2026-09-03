@@ -59,24 +59,6 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 新国自动场景=ssid, default=新国自动策略, cellular=新国自动策略, "CMCC_BEV2123768_2.4G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
 美国自动场景=ssid, default=美国自动策略, cellular=美国自动策略, "CMCC_BEV2123768_2.4G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
 
-# 场景策略5G
-香港手动场景=ssid, default=香港手动策略, cellular=香港手动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-台湾手动场景=ssid, default=台湾手动策略, cellular=台湾手动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-日本手动场景=ssid, default=日本手动策略, cellular=日本手动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-韩国手动场景=ssid, default=韩国手动策略, cellular=韩国手动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-新国手动场景=ssid, default=新国手动策略, cellular=新国手动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-美国手动场景=ssid, default=美国手动策略, cellular=美国手动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-游戏手动场景=ssid, default=游戏手动策略, cellular=游戏手动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-全球手动场景=ssid, default=全球手动策略, cellular=全球手动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-香港自动场景=ssid, default=香港自动策略, cellular=香港自动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-台湾自动场景=ssid, default=台湾自动策略, cellular=台湾自动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-日本自动场景=ssid, default=日本自动策略, cellular=日本自动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-韩国自动场景=ssid, default=韩国自动策略, cellular=韩国自动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-新国自动场景=ssid, default=新国自动策略, cellular=新国自动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-美国自动场景=ssid, default=美国自动策略, cellular=美国自动策略, "CMCC_BEV2123768_5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
-
-
-
 # --------------------------------
 # 地区策略
 香港手动策略=select, 香港节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
@@ -119,8 +101,6 @@ https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr, policy=DIRECT, tag=CN REGIO
 
 [Host]
 ssid: CMCC_BEV2123768_2.4G=server: 192.168.100.1
-ssid: CMCC_BEV2123768_5G=server: 192.168.100.1
-
 
 [Rewrite]
 
